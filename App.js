@@ -27,6 +27,7 @@ export default function App() {
   const onSaveImageAsync = async () => {
     // we will implement this later
   };
+
   const pickImage = async() => {
     let result = await ImagePicker.launchImageLibraryAsync({
       allowsEditing: true,
